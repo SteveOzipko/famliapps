@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famli - Help Busy Families Thrive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: white;
+            color: black;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Header Section */
+        .header {
+            margin-bottom: 60px;
+        }
+
+        .famli-logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 30px;
+            display: block;
+        }
+
+        .mission-statement {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .supporting-text {
+            font-size: 18px;
+            color: black;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Our Apps Section */
+        .our-apps {
+            margin-bottom: 80px;
+        }
+
+        .section-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: black;
+        }
+
+        .app-entry {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .tidyfam-logo {
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+
+        .app-name {
+            font-size: 24px;
+            font-weight: normal;
+            color: black;
+        }
+
+        .download-button {
+            width: 200px;
+            height: 60px;
+            display: block;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .download-button:hover {
+            opacity: 0.8;
+        }
+
+        /* Footer Section */
+        .footer {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 30px;
+            margin-top: 40px;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .legal-links {
+            font-size: 14px;
+            color: black;
+        }
+
+        .legal-links a {
+            color: black;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .legal-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            .mission-statement {
+                font-size: 24px;
+            }
+
+            .supporting-text {
+                font-size: 16px;
+            }
+
+            .famli-logo {
+                width: 60px;
+                height: 60px;
+            }
+
+            .tidyfam-logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            .download-button {
+                width: 180px;
+                height: 54px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <img src="famliLogo.png" alt="Famli Logo" class="famli-logo">
+            <h1 class="mission-statement">At Famli, our mission is simple: help busy families thrive.</h1>
+            <p class="supporting-text">Founded by parents, for parents. We believe technology should make life easier, not harder — and we're here to prove it, one app at a time.</p>
+        </header>
+
+        <!-- Our Apps Section -->
+        <section class="our-apps">
+            <h2 class="section-heading">Our Apps</h2>
+            <div class="app-entry">
+                <img src="tidyFamLogo.png" alt="TidyFam Logo" class="tidyfam-logo">
+                <h3 class="app-name">TidyFam</h3>
+                <img src="downloadFrom.png" alt="Download on the App Store" class="download-button">
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p class="copyright">©Copyright 2025 Famli Apps</p>
+            <div class="legal-links">
+                <a href="#" onclick="alert('Privacy Policy coming soon')">Privacy Policy</a>
+                |
+                <a href="#" onclick="alert('Terms of Service coming soon')">Terms of Service</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
