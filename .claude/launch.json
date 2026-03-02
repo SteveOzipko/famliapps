@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "famliapps",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "/Users/mikemontgomery/Desktop/FamliApps", "-l", "8080"],
+      "port": 8080
+    }
+  ]
+}
